@@ -1,0 +1,46 @@
+{
+	"type":"register",
+	"data":{
+		"nodeId":"test1",
+		"usage":"this is usage",
+		"description":"this is description"
+	}
+}
+
+
+
+{
+	"type":"command",
+	"data":{
+		"nodeId":"test1",
+		"command":"Are you OK?"
+	}
+}
+
+
+
+{
+	"type":"subscript",
+	"data":{
+		"topic":"test_topic"
+	}
+}
+
+
+
+{
+	"type":"notification",
+	"data":{
+		"topic":"test_topic",
+		"message":"hello everyone."
+	}
+}
+
+
+
+{
+	"type":"unsubscribe",
+	"data":{
+		"topic":"test_topic"
+	}
+}
